@@ -1,0 +1,34 @@
+CRITICAL - 2023-10-05 14:31:19 --> Undefined variable $product
+in APPPATH\Views\add_product.php on line 12.
+ 1 APPPATH\Views\add_product.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\backend\\app\\Views\\add_product.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\backend\\app\\Views\\add_product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(33): view('add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->insertProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+CRITICAL - 2023-10-05 14:31:26 --> Undefined variable $product
+in APPPATH\Views\add_product.php on line 12.
+ 1 APPPATH\Views\add_product.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\backend\\app\\Views\\add_product.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\backend\\app\\Views\\add_product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_product', [], true)
+ 5 APPPATH\Controllers\ProductController.php(33): view('add_product')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->insertProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
+CRITICAL - 2023-10-05 14:32:26 --> Invalid file: "readproduct.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('readproduct.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('readproduct', [], true)
+ 3 APPPATH\Controllers\ProductController.php(33): view('readproduct')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->insertProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\backend\\public\\index.php')
